@@ -1,0 +1,13 @@
+Début
+    Pour i allant de 1 à longueur(arr) - 1 faire
+        élément_courant ← arr[i]
+        j ← i - 1
+
+        Tant que j ≥ 0 et arr[j] > élément_courant faire
+            arr[j + 1] ← arr[j]
+            j ← j - 1
+        Fin Tant que
+
+        arr[j + 1] ← élément_courant
+    Fin Pour
+Fin
